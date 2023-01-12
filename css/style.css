@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.register .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.register .container .border {
+  border: 5px solid blue;
+  padding: 40px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+.register .container .border .image {
+  max-width: 270px;
+  position: absolute;
+  right: -8%;
+  top: 7%;
+  z-index: 2;
+}
+.register .container .image_shadow {
+  max-width: 220px;
+  position: absolute;
+  right: -8%;
+  top: 20%;
+}
+.register .container .box {
+  max-width: 380px;
+}
+.register .container .box a {
+  text-decoration: none;
+}
+.register .container .box h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.register .container .box input {
+  min-height: 25px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.register .container .box select {
+  min-height: 25px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.register .container .box .href {
+  margin-bottom: 10px;
+}
+.register .container .box .href span {
+  font-size: 13px;
+}
+.register .container .box .href span:nth-child(2) {
+  color: blue;
+}
+.register button {
+  width: 100%;
+  min-height: 30px;
+  background: blue;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
